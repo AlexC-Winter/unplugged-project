@@ -96,40 +96,134 @@ header, footer {
   flex-flow: row wrap;
 }
 
-.header-wrapper, .social-icons, .contact, .copyright {
+header .content-wrapper, header figure, .contact, footer h2, .copyright {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.header-wrapper, .contact {
+header .content-wrapper, .contact {
   flex-flow: row wrap;
 }
 
-/***** Navigation Styles *****/
-
-nav, .nav-list {
+.social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/***** Navigation Base Styles *****/
+
+header nav, header nav ul li  {
+  display: flex;
+  justify-content: space-evenly;
   align-items: center;
   flex-flow: row wrap;
 }
 
 /***** Structure styles *****/
 
-.hero-area, aside, .features, .feature-items, .reviews, .mission, .contact-us, .faq, .faq-wrapper {
+.hero-area, aside, .features, .feature-items, .reviews, .mission, .contact-us, .faq, .faq .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 } 
 
-.aside, .feature-items, .reviews, .mission, .contact-us, .faq, .faq-wrapper {
+.aside, .feature-items, .reviews, .mission, .contact-us, .faq, .faq .content-wrapper {
   flex-flow: row wrap;
 }
 
+.content-wrapper {
+  width: 85%;
+}
+
+/***** Header Styles *****/
+
+header .content-wrapper {
+  margin: 0;
+}
+
+header figure {
+  width: 60%;
+  padding: 15px 0;
+}
+
+.header-divider {
+  width: 100%;
+}
+
+header nav ul {
+  width: 45%;
+  padding: 20px 0;
+}
+
+/***** Footer Styles *****/
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer h2 {
+  margin: 20px;
+}
+
+address {
+  margin: 20px 0;
+}
+
+.social {
+  padding: 50px 0;
+}
+
+
+
+footer p {
+  margin: 0;
+}
+
+/***** Hero Area Styles *****/
+
+.hero-area h1 {
+  padding: 50px 0;
+}
+
+/***** Aside Styles *****/
+
+aside h2 {
+  padding: 30 0 10 0;
+}
+
+/***** Features Styles *****/
+
+.feature-items {
+  width: 55%;
+}
+
+.features p {
+  margin: 0;
+}
+
+/***** Reviews Styles *****/
+
+.reviews h2 {
+  width: 50%;
+}
+
+/***** Mission Styles *****/
+
+
+/***** Contact-us Styles *****/
+
+/***** faq styles *****/
+
+.questions h2, .questions p {
+  margin: 15px 0;
+}
+
 /* ==========================================================================
-   Helper classes
-   ========================================================================== */
+  Helper classes
+  ========================================================================== */
 
 /*
  * Hide visually and from screen readers
