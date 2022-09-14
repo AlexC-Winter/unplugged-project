@@ -135,7 +135,7 @@ p {
 }
 
 img {
- 
+ width: 100%;
 }
 
 figure {
@@ -240,7 +240,7 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-image: url('../img/jake-melara-30679-unsplash.png');
+  background-image: url('../img/jake-melara-30679-unsplash.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
@@ -298,7 +298,7 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-image: url('../img/rawpixel-800820-unsplash.png');
+  background-image: url('../img/rawpixel-800820-unsplash1.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
